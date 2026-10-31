@@ -191,7 +191,9 @@ button:hover {
 
 .service-card h3 {
     font-size: 22px;
-    margin-bottom: 15px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 14px;
 }
 
 
@@ -386,4 +388,9 @@ footer {
     background: #1d4ed8;
     border-color: #1d4ed8;
     transform: translateY(-2px);
+}
+.service-card p {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.8;
 }
