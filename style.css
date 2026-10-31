@@ -207,16 +207,22 @@ button:hover {
 
 .about {
     padding: 100px 8%;
-    max-width: 900px;
+    background: #f8faff;
 }
 
 .about h2 {
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
 }
 
 .about p {
-    font-size: 18px;
+    max-width: 750px;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #64748b;
 }
 
 
