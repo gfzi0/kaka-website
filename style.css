@@ -136,16 +136,22 @@ button:hover {
 }
 
 .secondary-button {
+    display: inline-block;
     text-decoration: none;
-    color: #111111;
-    border: 1px solid #111111;
-    padding: 14px 28px;
-    border-radius: 4px;
+    background: #ffffff;
+    color: #111827;
+    padding: 15px 30px;
+    border: 2px solid #dbe2ea;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
 .secondary-button:hover {
-    background-color: #111111;
-    color: #ffffff;
+    background: #f3f6fb;
+    border-color: #2563eb;
+    color: #2563eb;
 }
 
 
