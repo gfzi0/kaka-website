@@ -74,10 +74,11 @@ nav a:hover {
 ========================= */
 
 .hero {
-    min-height: 600px;
+    min-height: 650px;
+    padding: 100px 8%;
     display: flex;
     align-items: center;
-    padding: 80px 8%;
+    background: linear-gradient(135deg, #ffffff 0%, #f4f7ff 100%);
 }
 
 .hero-content {
@@ -92,16 +93,21 @@ nav a:hover {
 }
 
 .hero h1 {
-    font-size: 64px;
-    line-height: 1.05;
+    font-size: clamp(40px, 5vw, 68px);
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -2px;
+    color: #111827;
     max-width: 850px;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .hero-text {
-    font-size: 19px;
-    max-width: 550px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    color: #5b6475;
+    max-width: 600px;
+    margin-bottom: 32px;
+    line-height: 1.8;
 }
 
 
@@ -354,4 +360,22 @@ footer {
 #formMessage {
     margin-top: 20px;
     font-weight: bold;
+}
+.primary-button {
+    display: inline-block;
+    text-decoration: none;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #2563eb;
+    transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+    transform: translateY(-2px);
 }
