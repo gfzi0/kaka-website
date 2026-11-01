@@ -338,6 +338,18 @@ footer {
         font-size: 35px;
     }
 
+    .portfolio-grid {
+    grid-template-columns: 1fr;
+}
+
+.portfolio {
+    padding: 70px 6%;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+}
+    
 }/* ==========================
    CONTACT FORM
 ========================= */
@@ -430,5 +442,95 @@ footer {
     text-align: center;
     color: #64748b;
     font-size: 17px;
+    line-height: 1.8;
+}
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    padding: 100px 8%;
+    background: #f8faff;
+}
+
+.portfolio-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio h2 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.portfolio-content > p {
+    max-width: 650px;
+    margin: 0 auto 45px;
+    text-align: center;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.portfolio-card {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e5eaf2;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.12);
+}
+
+.portfolio-image {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.restaurant {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.ecommerce {
+    background: linear-gradient(135deg, #111827, #475569);
+}
+
+.business {
+    background: linear-gradient(135deg, #0f766e, #14b8a6);
+}
+
+.portfolio-info {
+    padding: 25px;
+}
+
+.portfolio-info h3 {
+    font-size: 21px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.portfolio-info p {
+    font-size: 15px;
+    color: #64748b;
     line-height: 1.8;
 }
